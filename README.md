@@ -4,7 +4,9 @@ airflow에서 daily schedule이 동작하는 예시를 기록한다.
 
 다음 상황에서 테스트된 것을 기록한다.
 > airflow.cfg에 timezone setting이 Asia/Seoul로 세팅되어있다.
+
 > airflow의 구동되는 가상환경에는 arrow 모듈이 설치되어있다. pip install arrow
+
 > airflow의 DAG으로 등록 후, DAG을 ON(구동)시킨 시간은 2019-10-28일 오후 11시 58분(KST) ~ 2019-10-29일 오전 12시 30분(KST)이다.
 
 결과는 아래와 같다.
